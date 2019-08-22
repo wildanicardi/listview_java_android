@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:id="@+id/gambar"
+                android:scaleType="fitXY"
+                android:src="@drawable/shazam" />
+            <TextView
+                android:id="@+id/nama_judul"
+                style="@style/TextContent.Small.White"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginStart="16dp"
+                android:background="#4D000000"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/judul"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/description"
+            style="@style/TextContent"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:lineSpacingMultiplier="1"
+            android:layout_marginTop="20dp"
+            android:text="@string/detail"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</ScrollView>

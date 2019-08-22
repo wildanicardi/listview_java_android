@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ListFilm</string>
+    <string name="judul">judul</string>
+    <string name="detail">detail</string>
+
+
+    <string-array name="data_judul">
+        <item>Fast Furious Presents: Hobbs Shaw (2019)</item>
+        <item>Avengers: Endgame (2019)</item>
+        <item>The Lion King (2019)</item>
+        <item>Last Christmas (2019)</item>
+        <item>Aladdin (2019)</item>
+        <item>Aquaman (2018)</item>
+        <item>Spider-Man: Far from Home (2019)</item>
+        <item>Joker</item>
+        <item>John Wick: Chapter 3 - Parabellum (2019)</item>
+        <item>Shazam! (2019)</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.</item>
+        <item>After the devastating events of Avengers: Infinity War (2018)</item>
+        <item>After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.</item>
+        <item>Kate is a young woman subscribed to bad decisions. .</item>
+        <item>A kind-hearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.</item>
+        <item>Arthur Curry, the human-born heir to the underwater kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean and land.</item>
+        <item>Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.</item>
+        <item>An original standalone origin story of the iconic villain not seen before on the big screen.</item>
+        <item>John Wick is on the run after killing a member .</item>
+        <item>We all have a superhero inside us, it just takes a bit of magic to bring it out..</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/fast9</item>
+        <item>@drawable/avengers</item>
+        <item>@drawable/lion</item>
+        <item>@drawable/cristmas</item>
+        <item>@drawable/aladin</item>
+        <item>@drawable/aquamen</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/joker</item>
+        <item>@drawable/johnwick</item>
+        <item>@drawable/shazam</item>
+    </array>
+</resources>
